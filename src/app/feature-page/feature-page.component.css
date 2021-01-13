@@ -1,0 +1,91 @@
+.position[_ngcontent-c1] {
+    position: relative;
+    margin-top: 10%;
+}
+
+.lft-card-height {
+    position: relative;
+    height: 300px;
+}
+
+.right-card-height {
+    position: relative;
+    height: 450px;
+}
+
+.mt {
+    margin-top: 30px;
+}
+
+.lft-sub-card-height {
+    position: relative;
+    height: 70px;
+}
+
+.card-shadow {
+    // box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.about-border {
+    display: block;
+    width: 174px;
+    height: 3px;
+    background: #d279a6;
+}
+
+.about-border-1 {
+    display: block;
+    width: 193px;
+    height: 3px;
+    background: #d279a6;
+}
+
+.color {
+    color: #001a33;
+}
+
+.fw {
+    font-weight: 600;
+}
+
+.header-border {
+    display: block;
+    width: 65px;
+    height: 4px;
+    background: #ffa31a;
+    border-radius: 3px;
+}
+
+.header-border-1 {
+    display: block;
+    width: 15px;
+    height: 4px;
+    background: #001a33;
+    border-radius: 3px;
+}
+
+.ml {
+    margin-left: -24px;
+}
+
+.fs {
+    font-size: 12px;
+}
+
+.pr {
+    float: right;
+}
+
+.card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    transform: rotate(-2deg);
+}
+
+.f_size_14 {
+    font-size: 14px;
+}
