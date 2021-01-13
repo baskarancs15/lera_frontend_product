@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AboutPageComponent } from './about-page/about-page.component';
 import { SidemenuComponent } from './sidemenu/sidemenu.component';
+import { FeaturePageComponent } from './feature-page/feature-page.component';
+import { DocumentComponent } from './document/document.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutPageComponent,
-    SidemenuComponent
+    SidemenuComponent,
+    FeaturePageComponent,
+    DocumentComponent
   ],
   imports: [
     BrowserModule,
