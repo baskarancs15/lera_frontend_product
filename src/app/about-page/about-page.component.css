@@ -23,7 +23,7 @@
 }
 
 .card-shadow {
-  // box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  /* // box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2); */
   -moz-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
@@ -96,6 +96,6 @@
   color: grey;
 }
 
-.m-sidemenu {
+/* .m-sidemenu {
   margin-left: 55px;
-}
+} */
