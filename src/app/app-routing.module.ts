@@ -12,6 +12,7 @@ const routes: Routes = [
   { path: 'feature', component: FeaturePageComponent },
   { path: 'document', component: DocumentComponent },
   { path: 'navbar', component: NavbarMenuComponent },
+  { path: '', redirectTo: '/about', pathMatch: 'full' },
 ];
 
 @NgModule({
