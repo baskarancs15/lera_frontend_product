@@ -1,0 +1,59 @@
+.headernav {
+    position: relative;
+    left: 0%;
+    margin-top: 50px;
+    padding-left: 100px;
+  }
+
+  .title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 5vw;
+    margin-top: 30px;
+  }
+
+  .titleline {
+    border: 10px solid #f5b333;
+    border-radius: 20px;
+  }
+
+  .subtitle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 300;
+    margin-top: 30px;
+  }
+
+  .absolute {
+    position: absolute;
+    top: 0px;
+    left: 900PX;
+    /* border: 3px solid #73AD21; */
+  }
+
+  .uk-navbar-container:not(.uk-navbar-transparent) {
+    background:none;
+}
+
+  .verticalLineTop
+{
+    width:50%;
+    border-top:solid 10px #f5b333;
+    border-radius: 5px;
+}
+
+.verticalSmallLineTop
+{
+    width:20%;
+    border-top:solid 10px #363497;
+    border-radius: 5px;
+}
+
+
+
+
+  .imagerelative {
+    position: relative;
+    left: 180%;
+  }
+
+
+  
