@@ -11,9 +11,11 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutPageComponent },
   { path: 'sidemenu', component: SidemenuComponent },
-  { path: 'feature', component: FeaturePageComponent },
-  { path: 'document', component: DocumentComponent },
+  { path: 'features', component: FeaturePageComponent },
+  { path: 'documentation', component: DocumentComponent },
   { path: 'navbar', component: NavbarMenuComponent },
+  { path: 'technology', component: FeaturePageComponent },
+  { path: 'tools', component: FeaturePageComponent },
   { path: '', redirectTo: '/about', pathMatch: 'full' },
 ];
 
