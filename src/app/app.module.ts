@@ -7,11 +7,21 @@ import {MatMenuModule} from '@angular/material/menu';import {MatButtonModule} fr
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import { AboutPageComponent } from './about-page/about-page.component';
+import { SidemenuComponent } from './sidemenu/sidemenu.component';
+import { FeaturePageComponent } from './feature-page/feature-page.component';
+import { DocumentComponent } from './document/document.component';
+import { NavbarMenuComponent } from './navbar-menu/navbar-menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    AboutPageComponent,
+    SidemenuComponent,
+    FeaturePageComponent,
+    DocumentComponent,
+    NavbarMenuComponent
   ],
   imports: [
     BrowserModule,
@@ -21,6 +31,10 @@ import { HomeComponent } from './home/home.component';
     MatCardModule,
     MatMenuModule,
     MatButtonModule
+  ],
+  exports: [
+    SidemenuComponent,
+    NavbarMenuComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
