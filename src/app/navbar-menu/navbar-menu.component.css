@@ -32,5 +32,11 @@
 .navbar-light .navbar-nav .nav-link:focus {
   color: #001a33 !important;
   font-weight: 500;
-  background-color: lightgrey;
+  background-color: #f0eeeb;
+}
+.navbar-light .navbar-nav .nav-link:active,
+.navbar-light .navbar-nav .nav-link:focus {
+  color: #001a33 !important;
+  font-weight: 500;
+  background-color: #f0eeeb;
 }
