@@ -23,7 +23,7 @@
 }
 
 .card-shadow {
-  // box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  /* // box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2); */
   -moz-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
@@ -31,14 +31,14 @@
 
 .about-border {
   display: block;
-  width: 150px;
+  width: 174px;
   height: 3px;
   background: #001a33 !important;
 }
 
 .about-border-1 {
   display: block;
-  width: 165px;
+  width: 193px;
   height: 3px;
   background: #001a33 !important;
 }
@@ -95,3 +95,7 @@
 .color-grey {
   color: grey;
 }
+
+/* .m-sidemenu {
+  margin-left: 55px;
+} */
