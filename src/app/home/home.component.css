@@ -24,8 +24,8 @@
 
   .absolute {
     position: absolute;
-    top: 0px;
-    left: 900PX;
+    top: -40px;
+    left: 800PX; 
     /* border: 3px solid #73AD21; */
   }
 
