@@ -22,20 +22,24 @@
     -moz-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
     -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
-}
-
+} 
+.lineprop {
+    text-decoration: underline solid #001a33 2px;
+    -ms-text-underline-position: below;
+    text-underline-position: under; 
+  }
 .about-border {
     display: block;
     width: 174px;
     height: 3px;
-    background: #d279a6;
+    background:  #001a33;
 }
 
 .about-border-1 {
     display: block;
     width: 193px;
     height: 3px;
-    background: #d279a6;
+    background:  #001a33;
 }
 
 .color {
