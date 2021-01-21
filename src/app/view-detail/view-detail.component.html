@@ -67,4 +67,53 @@
       faster and easier processing of transactions - in direct conflict with fraud prevention
       solutions that impose more security steps.</p>
   </div>
+  <div class="row mt-5 bg-color">
+    <div class="col-8 bg-img"></div>
+    <div class="col-4">
+    <!-- Default form contact -->
+    <form class="text-center border border-light p-5" [formGroup]="contactForm">
+
+      <p class="h4 mb-4">Contact us</p>
+
+      <!-- Name -->
+      <input type="text" formControlName="contactFormName" id="defaultContactFormName" class="form-control mb-4"
+        placeholder="Name">
+
+      <!-- Email -->
+      <input type="email" formControlName="contactFormEmail" id="defaultContactFormEmail" class="form-control mb-4"
+        placeholder="E-mail">
+
+      <!-- Subject -->
+      <label>Subject</label>
+      <!-- <select formControlName="contactFormSubjects" class="browser-default custom-select mb-4">
+        <option value="" disabled>Choose option</option>
+        <option value="1" selected>Feedback</option>
+        <option value="2">Report a bug</option>
+        <option value="3">Feature request</option>
+        <option value="4">Feature request</option>
+      </select> -->
+      <div class="form-group">
+        <textarea formControlName="contactFormTitle" class="form-control rounded-0" id="exampleFormControlTextarea2"
+          rows="1" placeholder="Request title"></textarea>
+      </div>
+
+
+      <!-- Message -->
+      <div class="form-group">
+        <textarea formControlName="contactFormMessage" class="form-control rounded-0" id="exampleFormControlTextarea2"
+          rows="3" placeholder="Message"></textarea>
+      </div>
+
+      <!-- Copy -->
+      <!-- <mdb-checkbox [default]="true" class="mb-4">Send me a copy of this message</mdb-checkbox> -->
+
+      <!-- Send button -->
+      <button class="btn btn-primary"  
+        [disabled]="disabledSubmitButton">Send</button>
+
+    </form>
+    <!-- Default form contact -->
+  </div>
+  </div>
+  <br><br>
 </div>
