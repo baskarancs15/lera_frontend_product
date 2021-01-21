@@ -6,6 +6,7 @@ import { SidemenuComponent } from './sidemenu/sidemenu.component';
 import { FeaturePageComponent } from './feature-page/feature-page.component';
 import { DocumentComponent } from './document/document.component';
 import { NavbarMenuComponent } from './navbar-menu/navbar-menu.component';
+import { ViewDetailComponent } from './view-detail/view-detail.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'navbar', component: NavbarMenuComponent },
   { path: 'technology', component: FeaturePageComponent },
   { path: 'tools', component: FeaturePageComponent },
+  { path: 'viewDetail', component: ViewDetailComponent },
   { path: '', redirectTo: '/about', pathMatch: 'full' },
 ];
 

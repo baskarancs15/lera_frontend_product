@@ -12,6 +12,7 @@ import { SidemenuComponent } from './sidemenu/sidemenu.component';
 import { FeaturePageComponent } from './feature-page/feature-page.component';
 import { DocumentComponent } from './document/document.component';
 import { NavbarMenuComponent } from './navbar-menu/navbar-menu.component';
+import { ViewDetailComponent } from './view-detail/view-detail.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { NavbarMenuComponent } from './navbar-menu/navbar-menu.component';
     SidemenuComponent,
     FeaturePageComponent,
     DocumentComponent,
-    NavbarMenuComponent
+    NavbarMenuComponent,
+    ViewDetailComponent
   ],
   imports: [
     BrowserModule,
