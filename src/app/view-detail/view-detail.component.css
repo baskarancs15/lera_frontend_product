@@ -1,3 +1,4 @@
+/* Avinash css starts here */
 .cardSize {
     width: 270px;
 }
@@ -5,3 +6,15 @@
 .rightPanel-mt {
     margin-top: 50px;
 }
+
+/* Avinash css ends here */
+
+/* Kani css starts here */
+.bg-img {
+    background-image:url("../../assets/viewdetails/service-industry-form.png") ;
+}
+.bg-color {
+    background-color: aliceblue;
+}
+
+/* Kani css ends here */
